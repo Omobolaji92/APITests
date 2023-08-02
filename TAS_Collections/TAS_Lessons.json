@@ -116,9 +116,7 @@
 					"script": {
 						"id": "75c1ac5b-d655-454b-96dd-25f61b96c80f",
 						"exec": [
-							"pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {\r",
-							"    console.log(response.json());\r",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -399,12 +397,12 @@
 	],
 	"variable": [
 		{
-			"id": "7a85fa8b-6313-4042-9fe5-69ce4a509de4",
+			"id": "efb40a2a-7f09-49bf-ae81-9f2392a023df",
 			"key": "MNurl",
 			"value": "123"
 		},
 		{
-			"id": "11420a03-8502-4f00-baa5-5ed94601b024",
+			"id": "5f920273-acb1-4b90-9313-3cd4fdf49f52",
 			"key": "cookiesResponse",
 			"value": ""
 		}
