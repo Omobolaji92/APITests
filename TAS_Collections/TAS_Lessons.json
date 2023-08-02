@@ -51,7 +51,7 @@
 					}
 				}
 			],
-			"_postman_id": "015afe57-c505-40ba-b9ce-0a1f4be0e663",
+			"id": "015afe57-c505-40ba-b9ce-0a1f4be0e663",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -116,13 +116,15 @@
 					"script": {
 						"id": "75c1ac5b-d655-454b-96dd-25f61b96c80f",
 						"exec": [
-							""
+							"pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {\r",
+							"    console.log(response.json());\r",
+							"});"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"_postman_id": "5046d02a-fb1c-44ee-b4ba-f21b666d8e6f",
+			"id": "5046d02a-fb1c-44ee-b4ba-f21b666d8e6f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -182,7 +184,7 @@
 					}
 				}
 			],
-			"_postman_id": "ab0771b1-3ec7-455c-adde-c295ce4376e5",
+			"id": "ab0771b1-3ec7-455c-adde-c295ce4376e5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -224,7 +226,7 @@
 					}
 				}
 			],
-			"_postman_id": "3ab6348f-cd97-4f88-b9ce-278c7db4b0c3",
+			"id": "3ab6348f-cd97-4f88-b9ce-278c7db4b0c3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -280,7 +282,7 @@
 					}
 				}
 			],
-			"_postman_id": "bfc36449-02d9-4a33-9753-4695d73e8834",
+			"id": "bfc36449-02d9-4a33-9753-4695d73e8834",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -310,7 +312,7 @@
 					}
 				}
 			],
-			"_postman_id": "ebbd1693-1188-47c7-aaa3-c805e157808f",
+			"id": "ebbd1693-1188-47c7-aaa3-c805e157808f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -343,7 +345,7 @@
 					}
 				}
 			],
-			"_postman_id": "55cc4ea1-08e4-4c4f-8309-11927c08ced1",
+			"id": "55cc4ea1-08e4-4c4f-8309-11927c08ced1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -397,16 +399,14 @@
 	],
 	"variable": [
 		{
-			"id": "1c2be871-af7e-4b8b-a264-2c601e96b654",
+			"id": "7a85fa8b-6313-4042-9fe5-69ce4a509de4",
 			"key": "MNurl",
-			"value": "123",
-			"type": "string"
+			"value": "123"
 		},
 		{
-			"id": "a498f63c-cf49-49dc-a64a-5626a16c49a3",
+			"id": "11420a03-8502-4f00-baa5-5ed94601b024",
 			"key": "cookiesResponse",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
